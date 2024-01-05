@@ -27,6 +27,15 @@ function determineWinner(userChoice, computerChoice) {
   return winner;
 }
 
+function playRPS() {
+  userChoice = prompt("Choose 'Rock', 'Paper' or 'Scissors'");
+  computerChoice = getComputerChoice();
+  console.log(`You chose ${userChoice} and I chose ${computerChoice}.`);
+  determineWinner(userChoice, computerChoice);
+}
+
+playRPS();
+
 // switch (userChoice === "Rock") {
 //   case getComputerChoice === "Rock":
 //     console.log("It's a tie!");
@@ -66,9 +75,3 @@ function determineWinner(userChoice, computerChoice) {
 //   case getComputerChoice === "Scissors":
 //     console.log("It's a tie!");
 //     break;
-
-// function playRPS() {
-//   userChoice = prompt("Choose 'Rock', 'Paper' or 'Scissors'");
-//   computerChoice = getComputerChoice();
-//   determineWinner(userChoice, computerChoice);
-// }
