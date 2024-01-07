@@ -4,7 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock paper scissors</title>
-    <script src="rps.js"></script>
+    <script src="rps.js" defer></script>
+    <style>
+      .toggle-display {
+        display: none;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1>Rock, paper, scissors game</h1>
+    <p class="output">Let's play rock paper scissors!</p>
+    <div class="start-game">
+      <button class="start-game">Start Game</button>
+    </div>
+    <div class="buttons toggle-display">
+      <button class="rock">Rock</button>
+      <button class="paper">Paper</button>
+      <button class="scissors">Scissors</button>
+    </div>
+    <button class="restart toggle-display">Restart</button>
+  </body>
 </html>
