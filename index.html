@@ -5,23 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock paper scissors</title>
     <script src="rps.js" defer></script>
-    <style>
-      .toggle-display {
-        display: none;
-      }
-    </style>
+    <link href="style.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1>Rock, paper, scissors game</h1>
-    <p class="output">Let's play rock paper scissors!</p>
-    <div class="start-game">
-      <button class="start-game">Start Game</button>
+  <!--  -->
+  <!--  -->
+  <body class="flex-container">
+    <div class="main-content flex-container">
+      <div class="text-section">
+        <h1 class="title">Rock, paper, scissors game</h1>
+        <p class="output">Let's play rock paper scissors!</p>
+      </div>
+      <div class="button-section">
+        <div class="start-game">
+          <button class="start-game">Start Game</button>
+        </div>
+        <div class="all-buttons flex-container">
+          <div class="buttons toggle-display">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissors">Scissors</button>
+          </div>
+          <button class="restart toggle-display">Restart</button>
+        </div>
+      </div>
     </div>
-    <div class="buttons toggle-display">
-      <button class="rock">Rock</button>
-      <button class="paper">Paper</button>
-      <button class="scissors">Scissors</button>
-    </div>
-    <button class="restart toggle-display">Restart</button>
   </body>
+  <!--  -->
+  <!--  -->
 </html>
