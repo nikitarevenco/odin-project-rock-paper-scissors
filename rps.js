@@ -39,10 +39,13 @@ let buttonContainer = document.querySelector(".buttons");
 
 let startGameButton = document.querySelector(".start-game");
 
+let title = document.querySelector(".title");
+
 startGameButton.addEventListener("click", () => {
   buttonContainer.classList.toggle("toggle-display");
   startGameButton.classList.toggle("toggle-display");
-  mainPara.textContent = "Choose!";
+  title.textContent = "You go first!";
+  mainPara.textContent = "";
 });
 
 computer_score = 0;
@@ -51,6 +54,7 @@ user_score = 0;
 document.querySelector(".rock").addEventListener("click", function () {
   if (addScore() < 5) {
     const total_score = addScore(playRPS("Rock"));
+    title.textContent = `🤖: ${computer_score} 🫵: ${user_score}`;
   } else {
     determineFinalWinner();
   }
@@ -60,6 +64,7 @@ document.querySelector(".rock").addEventListener("click", function () {
 document.querySelector(".paper").addEventListener("click", function () {
   if (addScore() < 5) {
     const total_score = addScore(playRPS("Paper"));
+    title.textContent = `🤖: ${computer_score} 🫵: ${user_score}`;
   } else {
     determineFinalWinner();
   }
@@ -69,6 +74,7 @@ document.querySelector(".paper").addEventListener("click", function () {
 document.querySelector(".scissors").addEventListener("click", function () {
   if (addScore() < 5) {
     const total_score = addScore(playRPS("Scissors"));
+    title.textContent = `🤖: ${computer_score} 🫵: ${user_score}`;
   } else {
     determineFinalWinner();
   }
@@ -97,6 +103,7 @@ restartButton.addEventListener("click", function () {
   restartButton.classList.toggle("toggle-display");
   startGameButton.classList.toggle("toggle-display");
   mainPara.textContent = "Let's play rock paper scissors! (Again)";
+  title.textContent = "Rock, Paper, Scissors";
 });
 
 function determineFinalWinner() {

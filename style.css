@@ -26,6 +26,7 @@ body {
   padding: 30px;
   border-radius: 15px;
   height: 25vh;
+  width: 60vh;
 }
 
 .output {
@@ -41,6 +42,7 @@ button {
 
 .title {
   margin-bottom: 10px;
+  display: inline;
 }
 
 button {
@@ -50,6 +52,8 @@ button {
   background-color: #ffffff00;
   transition-duration: 0.4s;
   border-radius: 15px;
+  width: 30%;
+  /* width: 120px; */
 }
 
 button:hover {
@@ -58,6 +62,26 @@ button:hover {
   color: black;
 }
 
-.all-buttons {
-  width: auto;
+.button-section {
+  width: 100%;
+  justify-content: center;
+}
+
+#test {
+  justify-content: space-around;
+}
+
+#start-game {
+  justify-content: center;
+}
+
+.text-section .flex-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.restart-button {
+  align-items: center;
+  justify-content: center;
 }

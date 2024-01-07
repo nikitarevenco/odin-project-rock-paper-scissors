@@ -12,19 +12,26 @@
   <body class="flex-container">
     <div class="main-content flex-container">
       <div class="text-section">
-        <h1 class="title">Rock, paper, scissors game</h1>
-        <p class="output">Let's play rock paper scissors!</p>
+        <div class="flex-container">
+          <h1 class="title">Rock, Paper, Scissors</h1>
+          <p class="output">Let's play rock paper scissors!</p>
+        </div>
       </div>
       <div class="button-section">
         <div class="start-game">
-          <button class="start-game">Start Game</button>
-        </div>
-        <div class="all-buttons flex-container">
-          <div class="buttons toggle-display">
-            <button class="rock">Rock</button>
-            <button class="paper">Paper</button>
-            <button class="scissors">Scissors</button>
+          <div class="flex-container" id="start-game">
+            <button class="start-game">Start Game</button>
           </div>
+        </div>
+
+        <div class="buttons toggle-display">
+          <div class="flex-container" id="test">
+            <button class="rock">🪨 Rock</button>
+            <button class="paper">📄 Paper</button>
+            <button class="scissors">✂️ Scissors</button>
+          </div>
+        </div>
+        <div class="flex-container restart-button">
           <button class="restart toggle-display">Restart</button>
         </div>
       </div>
