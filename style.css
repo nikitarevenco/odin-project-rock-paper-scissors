@@ -16,6 +16,8 @@ body {
   align-items: center;
   min-height: 100vh;
   background-image: url(./nice-looking-background.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-content {
