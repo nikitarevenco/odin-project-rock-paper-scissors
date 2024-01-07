@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="zKF-aZKw49YoREh_toey" name="Page-1">
-        <mxGraphModel dx="1828" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="17667" dy="6147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -11,13 +11,13 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="Randomly generate computer's choice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="354" y="130" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="340" y="130" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="22">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="User wins: Increase user's score by 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="380" y="410" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="340" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="14">
                     <mxGeometry relative="1" as="geometry"/>
@@ -32,13 +32,13 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="Compare computer's choice with the user's choice to decide who wins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="354" y="260" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="340" y="260" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="22">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="Computer wins: Increase computer's score by 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="163" y="400" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="140" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="12" target="13">
                     <mxGeometry relative="1" as="geometry"/>
@@ -47,17 +47,25 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="Tie: Restart the match (but not the whole game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="550" y="410" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="540" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="23">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="At the end of the game, find whether the computer or the user has more wins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="354" y="560" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="340" y="555" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Inform user that they have won or lost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="690" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="340" y="690" width="120" height="60" as="geometry"/>
                 </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="-sKw61PFgComz_m3h3Em" name="Page-2">
+        <mxGraphModel dx="2650" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
             </root>
         </mxGraphModel>
     </diagram>
